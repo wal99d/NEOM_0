@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/me/Desktop/Projects/Electornics Projects/KiCAD/NEOM/V0.0/NEOM_0.sch</source>
+    <date>Sunday, November 19, 2017 'AMt' 06:07:24 AM</date>
+    <tool>Eeschema 4.0.2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>NEOM Board Version 0</title>
+        <company>InnovativeTech </company>
+        <rev>0.0</rev>
+        <date>2017-11-17</date>
+        <source>NEOM_0.sch</source>
+        <comment number="1" value="Desgined By @wal99d"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U4">
+      <value>STM32F070F6P6</value>
+      <footprint>Footprints:TSSOP20</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/31/4f/10/5f/a5/32/46/42/DM00141386.pdf/files/DM00141386.pdf/jcr:content/translations/en.DM00141386.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number&#x9;&#xD;">STM32F070F6P6&#xD;</field>
+        <field name="Checked">No</field>
+      </fields>
+      <libsource lib="stm32f070f6p6" part="STM32F070F6P6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0404EF</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>7_Pins_Header_PA0_PA6</value>
+      <footprint>Footprints:7_Pins_Headers</footprint>
+      <libsource lib="stm32f070f6p6" part="7_Pins_Header_PA0_PA6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0409BB</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>7_Pins_Header_PA7_PA14</value>
+      <footprint>Footprints:7_Pins_Headers</footprint>
+      <libsource lib="stm32f070f6p6" part="7_Pins_Header_PA7_PA14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A040B2B</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>TPD4S012DRYR</value>
+      <footprint>Footprints:TPD4S012DRYR</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tpd4s012.pdf</datasheet>
+      <libsource lib="tpd4s012dryr" part="TPD4S012DRYR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08AC61</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.47u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0A926B</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>33u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0A92C6</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM3940</value>
+      <footprint>Footprints:LM3940</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm3940.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number&#x9;">LM3940IMPX-3.3/NOPBCT-ND&#xD;</field>
+        <field name="Manufacturer Part Number&#x9;&#xD;">LM3940IMPX-3.3/NOPB&#xD;</field>
+      </fields>
+      <libsource lib="lm3940" part="LM3940"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0A9B31</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>Reset Button</value>
+      <footprint>Footprints:Tactile_Button</footprint>
+      <datasheet>https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number&#x9;&#xD;">TL3305AF260QG&#xD;</field>
+        <field name="Digi-Key Part Number&#x9;">EG5353CT-ND&#xD;</field>
+      </fields>
+      <libsource lib="tactile_button" part="Tactile_Button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0BB27D</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>Footprints:0805_LED</footprint>
+      <datasheet>http://www.lumex.com/content/files/ProductAttachment/SML-LXR85GC-TR.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number&#x9;">67-1557-1-ND&#xD;</field>
+        <field name="Manufacturer Part Number&#x9;&#xD;">SML-LXR85GC-TR&#xD;</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0BDF8E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Digi-Key Part Number&#x9;">311-680ARCT-ND&#xD;</field>
+        <field name="Manufacturer Part Number&#x9;&#xD;">RC0805JR-07680RL&#xD;</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0BE029</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Digi-Key Part Number&#x9;">311-100KCRCT-ND&#xD;</field>
+        <field name="Manufacturer Part Number&#x9;&#xD;">RC0805FR-07100KL&#xD;</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0D0085</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0D0146</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Digi-Key Part Number&#x9;">478-1395-1-ND&#xD;</field>
+        <field name="Manufacturer Part Number&#x9;&#xD;">08055C104KAT2A</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0DEB0A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Digi-Key Part Number&#x9;">311-1136-1-ND&#xD;</field>
+        <field name="Manufacturer Part Number&#x9;&#xD;">CC0805KRX7R9BB103</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0E13FB</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Digi-Key Part Number&#x9;">490-1691-1-ND&#xD;</field>
+        <field name="Manufacturer Part Number&#x9;&#xD;">GRM21BR71C105KA01L&#xD;</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0E1452</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Digi-Key Part Number&#x9;">311-680ARCT-ND&#xD;</field>
+        <field name="Manufacturer Part Number&#x9;&#xD;">RC0805JR-07680RL&#xD;</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0E92E9</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>16Mhz</value>
+      <footprint>Footprints:16Mhz</footprint>
+      <datasheet>https://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p16e.ashx</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number&#x9;">490-1198-1-ND&#xD;</field>
+        <field name="Manufacturer Part Number&#x9;&#xD;">CSTCE16M0V53-R0&#xD;</field>
+      </fields>
+      <libsource lib="stm32f070f6p6" part="16Mhz"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0EA044</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>USB_Micro_B</value>
+      <footprint>Footprints2:MICRO_USB_B_Type</footprint>
+      <datasheet>http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number&#x9;">609-4613-1-ND&#xD;</field>
+        <field name="Manufacturer Part Number&#x9;&#xD;">10118192-0001LF&#xD;</field>
+      </fields>
+      <libsource lib="stm32f070f6p6" part="USB_Micro_B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0EE308</tstamp>
+    </comp>
+    <comp ref="FID1">
+      <value>FIDUCIAL</value>
+      <footprint>Footprints2:MF_Aesthetics-FIDUCIAL_100MIL</footprint>
+      <libsource lib="stm32f070f6p6" part="FIDUCIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0F2CE2</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>FIDUCIAL</value>
+      <footprint>Footprints2:MF_Aesthetics-FIDUCIAL_100MIL</footprint>
+      <libsource lib="stm32f070f6p6" part="FIDUCIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0F2D50</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="stm32f070f6p6" part="16Mhz">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">16Mhz</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PF0-OSC_IN" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="PF1-OSC_OUT" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="stm32f070f6p6" part="7_Pins_Header_PA0_PA6">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7_Pins_Header_PA0_PA6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA0" type="input"/>
+        <pin num="2" name="PA1" type="input"/>
+        <pin num="3" name="PA2" type="input"/>
+        <pin num="4" name="PA3" type="input"/>
+        <pin num="5" name="PA4" type="input"/>
+        <pin num="6" name="PA5" type="input"/>
+        <pin num="7" name="PA6" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="stm32f070f6p6" part="7_Pins_Header_PA7_PA14">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7_Pins_Header_PA7_PA14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA7" type="input"/>
+        <pin num="2" name="PB1" type="input"/>
+        <pin num="3" name="PA9" type="input"/>
+        <pin num="4" name="PA10" type="input"/>
+        <pin num="5" name="PA13" type="input"/>
+        <pin num="6" name="PA14" type="input"/>
+        <pin num="7" name="NC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="stm32f070f6p6" part="FIDUCIAL">
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">FIDUCIAL</field>
+      </fields>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lm3940" part="LM3940">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM3940</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="OUT" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="stm32f070f6p6" part="STM32F070F6P6">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F070F6P6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOT0" type="BiDi"/>
+        <pin num="2" name="PF0-OSC_IN" type="input"/>
+        <pin num="3" name="PF1-OSC_OUT" type="output"/>
+        <pin num="4" name="NRST" type="input"/>
+        <pin num="5" name="VDDA" type="power_in"/>
+        <pin num="6" name="PA0" type="BiDi"/>
+        <pin num="7" name="PA1" type="BiDi"/>
+        <pin num="8" name="PA2" type="BiDi"/>
+        <pin num="9" name="PA3" type="BiDi"/>
+        <pin num="10" name="PA4" type="BiDi"/>
+        <pin num="11" name="PA5" type="BiDi"/>
+        <pin num="12" name="PA6" type="BiDi"/>
+        <pin num="13" name="PA7" type="BiDi"/>
+        <pin num="14" name="PB1" type="BiDi"/>
+        <pin num="15" name="VSS" type="power_in"/>
+        <pin num="16" name="VDD" type="power_in"/>
+        <pin num="17" name="PA9_[PA11]" type="BiDi"/>
+        <pin num="18" name="PA10_[PA12]" type="BiDi"/>
+        <pin num="19" name="PA13" type="BiDi"/>
+        <pin num="20" name="PA14" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="tpd4s012dryr" part="TPD4S012DRYR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPD4S012DRYR</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tpd4s012.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D+" type="input"/>
+        <pin num="2" name="D-" type="input"/>
+        <pin num="3" name="ID" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="N.C." type="input"/>
+        <pin num="6" name="VBUS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="tactile_button" part="Tactile_Button">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Tactile_Button</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="stm32f070f6p6" part="USB_Micro_B">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USB_Micro_B</field>
+      </fields>
+      <pins>
+        <pin num="0" name="Shield" type="passive"/>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="BiDi"/>
+        <pin num="5" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="lm3940">
+      <uri>/Users/me/Desktop/Projects/Electornics Projects/KiCAD/NEOM/V0.0/Schematic_Lib/lm3940.lib</uri>
+    </library>
+    <library logical="tactile_button">
+      <uri>/Users/me/Desktop/Projects/Electornics Projects/KiCAD/NEOM/V0.0/Schematic_Lib/tactile_button.lib</uri>
+    </library>
+    <library logical="tpd4s012dryr">
+      <uri>/Users/me/Desktop/Projects/Electornics Projects/KiCAD/NEOM/V0.0/Schematic_Lib/tpd4s012dryr.lib</uri>
+    </library>
+    <library logical="stm32f070f6p6">
+      <uri>/Users/me/Desktop/Projects/Electornics Projects/KiCAD/NEOM/V0.0/Schematic_Lib/stm32f070f6p6.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C3" pin="1"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U8" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U9" pin="0"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U4" pin="15"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="2" name="/NRST">
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="3" name="/ID">
+      <node ref="U9" pin="4"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="4" name="/VBUS">
+      <node ref="U9" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="5" name="/BOOT0">
+      <node ref="R4" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="6" name="Net-(U4-Pad2)">
+      <node ref="U8" pin="1"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="7" name="Net-(U4-Pad3)">
+      <node ref="U8" pin="3"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="8" name="Net-(U6-Pad7)">
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="9" name="Net-(U7-Pad5)">
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="10" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(U2-Pad1)">
+      <node ref="U4" pin="6"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="12" name="+3V3">
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U4" pin="16"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="13" name="/SWCLK">
+      <node ref="U4" pin="20"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="15" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="16" name="/USB_DM">
+      <node ref="U9" pin="2"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U4" pin="17"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="17" name="/USB_DP">
+      <node ref="U6" pin="4"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U4" pin="18"/>
+      <node ref="U9" pin="3"/>
+    </net>
+    <net code="18" name="/SWDIO">
+      <node ref="R2" pin="2"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U4" pin="19"/>
+    </net>
+    <net code="19" name="Net-(U2-Pad2)">
+      <node ref="U4" pin="7"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="20" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="21" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="22" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="23" name="Net-(U4-Pad13)">
+      <node ref="U4" pin="13"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="24" name="Net-(U4-Pad14)">
+      <node ref="U4" pin="14"/>
+      <node ref="U6" pin="2"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,21 @@
+Reference, Value, Footprint, Datasheet, Manufacturer Part Number	, Checked, Digi-Key Part Number	
+U4,STM32F070F6P6,Footprints:TSSOP20,http://www.st.com/content/ccc/resource/technical/document/datasheet/31/4f/10/5f/a5/32/46/42/DM00141386.pdf/files/DM00141386.pdf/jcr:content/translations/en.DM00141386.pdf,STM32F070F6P6,No,
+U2,7_Pins_Header_PA0_PA6,Footprints:7_Pins_Headers,
+U6,7_Pins_Header_PA7_PA14,Footprints:7_Pins_Headers,
+U7,TPD4S012DRYR,Footprints:TPD4S012DRYR,http://www.ti.com/lit/ds/symlink/tpd4s012.pdf
+C3,0.47u,Capacitors_SMD:C_0805,
+C4,33u,Capacitors_SMD:C_0805,
+U1,LM3940,Footprints:LM3940,http://www.ti.com/lit/ds/symlink/lm3940.pdf,LM3940IMPX-3.3/NOPB,,LM3940IMPX-3.3/NOPBCT-ND
+U3,Reset Button,Footprints:Tactile_Button,https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf,TL3305AF260QG,,EG5353CT-ND
+D1,LED,Footprints:0805_LED,http://www.lumex.com/content/files/ProductAttachment/SML-LXR85GC-TR.pdf,SML-LXR85GC-TR,,67-1557-1-ND
+R1,680,Resistors_SMD:R_0805,,RC0805JR-07680RL,,311-680ARCT-ND
+R2,100K,Resistors_SMD:R_0805,,RC0805FR-07100KL,,311-100KCRCT-ND
+R3,100K,Resistors_SMD:R_0805,
+C5,0.1u,Capacitors_SMD:C_0805,,08055C104KAT2A,,478-1395-1-ND
+C1,10n,Capacitors_SMD:C_0805,,CC0805KRX7R9BB103,,311-1136-1-ND
+C2,1u,Capacitors_SMD:C_0805,,GRM21BR71C105KA01L,,490-1691-1-ND
+R4,680,Resistors_SMD:R_0805,,RC0805JR-07680RL,,311-680ARCT-ND
+U8,16Mhz,Footprints:16Mhz,https://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p16e.ashx,CSTCE16M0V53-R0,,490-1198-1-ND
+U9,USB_Micro_B,Footprints2:MICRO_USB_B_Type,http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf,10118192-0001LF,,609-4613-1-ND
+FID1,FIDUCIAL,Footprints2:MF_Aesthetics-FIDUCIAL_100MIL,
+FID2,FIDUCIAL,Footprints2:MF_Aesthetics-FIDUCIAL_100MIL,

@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 109.949999 88.949999 138.050001 113.050001)
+    (area 105.875 87.31474 141.975 116.015)
     (thickness 1.6)
     (drawings 9)
     (tracks 331)
@@ -22,7 +22,7 @@
   )
 
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -95,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory Gerbers/))
+      (outputdirectory "/Users/me/Desktop/Projects/Electornics Projects/KiCAD/NEOM/V0.0/Gerbers/"))
   )
 
   (net 0 "")

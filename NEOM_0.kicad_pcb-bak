@@ -1,11 +1,11 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.2-stable)
 
   (general
-    (links 0)
+    (links 60)
     (no_connects 0)
     (area 105.875 87.31474 141.975 116.015)
     (thickness 1.6)
-    (drawings 9)
+    (drawings 10)
     (tracks 331)
     (zones 0)
     (modules 21)
@@ -68,7 +68,7 @@
     (mod_text_width 0.15)
     (pad_size 1.5 1.5)
     (pad_drill 0.6)
-    (pad_to_mask_clearance 0)
+    (pad_to_mask_clearance 0.05)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
@@ -1051,7 +1051,7 @@
   )
 
   (module Graphics:logo (layer B.Cu) (tedit 0) (tstamp 5A17086C)
-    (at 116.22 95.69 180)
+    (at 116.16 97.98 180)
     (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
@@ -1178,7 +1178,10 @@
       (xy -0.00539 1.56421) (xy 0 1.564641) (xy 0.02429 1.548197)) (layer B.SilkS) (width 0.01))
   )
 
-  (gr_text "NEOM 0" (at 119.5 92) (layer B.SilkS)
+  (gr_text "Proudly\nDesigned in" (at 119.42 94.52) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
+  )
+  (gr_text "NEOM 0\n" (at 119.5 92) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_line (start 134.5 113) (end 113.5 113) (layer Edge.Cuts) (width 0.1))

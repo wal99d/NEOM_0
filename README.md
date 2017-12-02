@@ -19,16 +19,8 @@ It's built with simplicity in mind using new STM32F070F6P6 MCU which have below
 > - Serial wire debug (SWD).
 
 ***TODO:***
-: Firware
+
+: Firmware
 
 ***Author:***
 [@wal99d](https://twitter.com/wal99d)
-
-
-
-
-
-
-
-
-

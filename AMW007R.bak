@@ -1,0 +1,311 @@
+EESchema Schematic File Version 2
+LIBS:NEOM_0-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:tpd4s012dryr
+LIBS:lm3940
+LIBS:tactile_button
+LIBS:NEOM_0
+LIBS:NEOM_0-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 2.4Ghz_Ant1 U2
+U 1 1 5A360663
+P 9350 2600
+F 0 "U2" H 9350 3200 60  0000 C CNN
+F 1 "2.4Ghz_Ant1" H 9350 3100 60  0000 C CNN
+F 2 "Footprints2:2.4Ghz_PCB_Antenna1" H 9350 2600 60  0001 C CNN
+F 3 "" H 9350 2600 60  0000 C CNN
+	1    9350 2600
+	1    0    0    -1  
+$EndComp
+Text HLabel 2650 1700 0    60   Input ~ 0
+UART_TX
+Text HLabel 2650 1900 0    60   Input ~ 0
+UART_RX
+$Comp
+L R R1
+U 1 1 5A3606DA
+P 2000 2400
+F 0 "R1" V 2080 2400 50  0000 C CNN
+F 1 "100k" V 2000 2400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1930 2400 50  0001 C CNN
+F 3 "" H 2000 2400 50  0000 C CNN
+	1    2000 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 5A360745
+P 2000 4500
+F 0 "R2" V 2080 4500 50  0000 C CNN
+F 1 "1k" V 2000 4500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1930 4500 50  0001 C CNN
+F 3 "" H 2000 4500 50  0000 C CNN
+	1    2000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5A36077D
+P 2000 5150
+F 0 "R3" V 2080 5150 50  0000 C CNN
+F 1 "100k" V 2000 5150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1930 5150 50  0001 C CNN
+F 3 "" H 2000 5150 50  0000 C CNN
+	1    2000 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L C C1
+U 1 1 5A3607DA
+P 7400 3600
+F 0 "C1" H 7425 3700 50  0000 L CNN
+F 1 "NF" H 7425 3500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 7438 3450 50  0001 C CNN
+F 3 "" H 7400 3600 50  0000 C CNN
+	1    7400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 5A360813
+P 8200 3600
+F 0 "C2" H 8225 3700 50  0000 L CNN
+F 1 "NF" H 8225 3500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 8238 3450 50  0001 C CNN
+F 3 "" H 8200 3600 50  0000 C CNN
+	1    8200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 5A360869
+P 1550 2500
+F 0 "#PWR023" H 1550 2250 50  0001 C CNN
+F 1 "GND" H 1550 2350 50  0000 C CNN
+F 2 "" H 1550 2500 50  0000 C CNN
+F 3 "" H 1550 2500 50  0000 C CNN
+	1    1550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR024
+U 1 1 5A36088B
+P 6650 5300
+F 0 "#PWR024" H 6650 5050 50  0001 C CNN
+F 1 "GND" H 6650 5150 50  0000 C CNN
+F 2 "" H 6650 5300 50  0000 C CNN
+F 3 "" H 6650 5300 50  0000 C CNN
+	1    6650 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR025
+U 1 1 5A3608AD
+P 7400 3900
+F 0 "#PWR025" H 7400 3650 50  0001 C CNN
+F 1 "GND" H 7400 3750 50  0000 C CNN
+F 2 "" H 7400 3900 50  0000 C CNN
+F 3 "" H 7400 3900 50  0000 C CNN
+	1    7400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR026
+U 1 1 5A3608CF
+P 8200 3900
+F 0 "#PWR026" H 8200 3650 50  0001 C CNN
+F 1 "GND" H 8200 3750 50  0000 C CNN
+F 2 "" H 8200 3900 50  0000 C CNN
+F 3 "" H 8200 3900 50  0000 C CNN
+	1    8200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR027
+U 1 1 5A3608F1
+P 9550 2850
+F 0 "#PWR027" H 9550 2600 50  0001 C CNN
+F 1 "GND" H 9550 2700 50  0000 C CNN
+F 2 "" H 9550 2850 50  0000 C CNN
+F 3 "" H 9550 2850 50  0000 C CNN
+	1    9550 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 4250 2000 4250
+Wire Wire Line
+	2000 4250 2000 4350
+Wire Wire Line
+	2000 4650 2000 4850
+Wire Wire Line
+	2000 4850 2650 4850
+Wire Wire Line
+	2650 5150 2150 5150
+Wire Wire Line
+	2150 2400 2650 2400
+Wire Wire Line
+	1850 2400 1550 2400
+Wire Wire Line
+	1550 2400 1550 2500
+Wire Wire Line
+	6300 3350 7650 3350
+Wire Wire Line
+	7400 3350 7400 3450
+Wire Wire Line
+	8200 3450 8200 3350
+Wire Wire Line
+	7950 3350 9350 3350
+Wire Wire Line
+	9350 3350 9350 2700
+Wire Wire Line
+	9550 2700 9550 2850
+Wire Wire Line
+	8200 3750 8200 3900
+Wire Wire Line
+	7400 3750 7400 3900
+Wire Wire Line
+	6300 4250 6650 4250
+Wire Wire Line
+	6650 4250 6650 5300
+Wire Wire Line
+	6300 4400 6650 4400
+Connection ~ 6650 4400
+Wire Wire Line
+	6300 4550 6650 4550
+Connection ~ 6650 4550
+Wire Wire Line
+	6300 4700 6650 4700
+Connection ~ 6650 4700
+Wire Wire Line
+	6300 4850 6650 4850
+Connection ~ 6650 4850
+Wire Wire Line
+	6300 5000 6650 5000
+Connection ~ 6650 5000
+Wire Wire Line
+	6300 5150 6650 5150
+Connection ~ 6650 5150
+Text HLabel 2650 3600 0    60   Input ~ 0
+UART_CTS
+Text HLabel 2650 3800 0    60   Input ~ 0
+UART_RTS
+NoConn ~ 3550 5550
+NoConn ~ 3700 5550
+NoConn ~ 3850 5550
+NoConn ~ 4000 5550
+NoConn ~ 4150 5550
+NoConn ~ 4300 5550
+NoConn ~ 4450 5550
+NoConn ~ 4600 5550
+NoConn ~ 4750 5550
+NoConn ~ 4900 5550
+NoConn ~ 5050 5550
+NoConn ~ 5200 5550
+NoConn ~ 5350 5550
+NoConn ~ 5500 5550
+NoConn ~ 5650 5550
+NoConn ~ 2650 2600
+NoConn ~ 2650 2800
+NoConn ~ 2650 3000
+NoConn ~ 2650 3200
+NoConn ~ 2650 3400
+$Comp
+L R R4
+U 1 1 5A360BB4
+P 7800 3350
+F 0 "R4" V 7880 3350 50  0000 C CNN
+F 1 "0" V 7800 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" V 7730 3350 50  0001 C CNN
+F 3 "" H 7800 3350 50  0000 C CNN
+	1    7800 3350
+	0    1    1    0   
+$EndComp
+Connection ~ 7400 3350
+Connection ~ 8200 3350
+$Comp
+L +3.3V #PWR028
+U 1 1 5A360EC1
+P 6500 1650
+F 0 "#PWR028" H 6500 1500 50  0001 C CNN
+F 1 "+3.3V" H 6500 1790 50  0000 C CNN
+F 2 "" H 6500 1650 50  0000 C CNN
+F 3 "" H 6500 1650 50  0000 C CNN
+	1    6500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR029
+U 1 1 5A360EEB
+P 1550 5050
+F 0 "#PWR029" H 1550 4900 50  0001 C CNN
+F 1 "+3.3V" H 1550 5190 50  0000 C CNN
+F 2 "" H 1550 5050 50  0000 C CNN
+F 3 "" H 1550 5050 50  0000 C CNN
+	1    1550 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 5050 1550 5150
+Wire Wire Line
+	1550 5150 1850 5150
+Wire Wire Line
+	6300 1700 6500 1700
+Wire Wire Line
+	6500 1700 6500 1650
+Text HLabel 6500 1700 2    60   Input ~ 0
++3.3v
+NoConn ~ 2650 4550
+$Comp
+L AMW007R~ U1
+U 1 1 5A367F40
+P 4600 3500
+F 0 "U1" H 3000 1550 60  0000 C CNN
+F 1 "AMW007R" H 3150 5550 60  0000 C CNN
+F 2 "Footprints2:AMW007R" H 3000 4650 60  0001 C CNN
+F 3 "" H 3000 4650 60  0001 C CNN
+	1    4600 3500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

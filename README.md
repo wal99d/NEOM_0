@@ -1,22 +1,24 @@
 NEOM_0
 =======
-This repo contains all design file for NOEM v0 hardware along with its firmware. 
+This repo contains all design file for NOEM_IoT v0 Rev2.0 hardware along with its firmware. 
 
-![alt tag](http://preview.ibb.co/dAc29b/Screen_Shot_2017_12_02_at_9_13_54_AM.png)
+![alt tag](http://image.ibb.co/heG74m/Screen_Shot_2017_12_25_at_5_53_08_PM.png)
 
-![alt tag](http://preview.ibb.co/j7BFvG/Screen_Shot_2017_12_02_at_9_14_40_AM.png)
+![alt tag](http://image.ibb.co/iXYtc6/Screen_Shot_2017_12_25_at_5_53_39_PM.png)
 
 
-It's built with simplicity in mind using new STM32F070F6P6 MCU which have below 
+It's built with simplicity in mind using new STM32F401CEU6 MCU which have below 
 > ***features:***
-> - 2x SPI
-> - 2x I2C
-> - 4x USART
-> - 12 bits ADC with 1uSec resolution
-> - 11x Timers
-> - 128KB Flash and 16Kbyte SRAM which is very useful for specialized applications like Drones and so.
+> - Core is ARM 32-bit Cortex-M4 with FPU.
+> - Power required between 1.7v to 3.6V.
+> - Up to 4 SPI
+> - Up to 3 I2C
+> - Up to 3 USART
+> - 12 bits ADC up to 16 channels.
+> - Up to 11 Timers
+> - 512KB Flash and 96Kbyte SRAM which is very useful for specialized IoT applications.
 > - USB 2.0 Full Speed Support.
-> - Serial wire debug (SWD).
+> - Debug mode in Serial wire debug (SWD).
 
 ***TODO:***
 

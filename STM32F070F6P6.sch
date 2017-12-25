@@ -28,10 +28,10 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:stm32f070f6p6
 LIBS:tpd4s012dryr
 LIBS:lm3940
 LIBS:tactile_button
+LIBS:NEOM_0
 LIBS:NEOM_0-cache
 EELAYER 25 0
 EELAYER END
@@ -48,100 +48,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L STM32F070F6P6 U7
-U 1 1 5A19FE89
-P 5450 5350
-F 0 "U7" H 5400 6050 60  0000 C CNN
-F 1 "STM32F070F6P6" H 5400 8050 60  0000 C CNN
-F 2 "Footprints:TSSOP20" H 5450 5350 60  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/31/4f/10/5f/a5/32/46/42/DM00141386.pdf/files/DM00141386.pdf/jcr:content/translations/en.DM00141386.pdf" H 5450 5350 60  0001 C CNN
-F 4 "STM32F070F6P6" H 5450 5350 60  0001 C CNN "ManufacturerPartNumber	"
-F 5 "No" H 5450 5350 60  0001 C CNN "Checked"
-F 6 "497-17353-ND" H 5450 5350 60  0001 C CNN "DigiKeyPartNumber	"
-	1    5450 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L 7_Pins_Header_PA0_PA6 U6
-U 1 1 5A19FE92
-P 3100 5350
-F 0 "U6" H 3100 5350 60  0000 C CNN
-F 1 "7_Pins_Header_PA0_PA6" V 2800 6250 60  0000 C CNN
-F 2 "Footprints:7_Pins_Headers" H 3100 5350 60  0001 C CNN
-F 3 "" H 3100 5350 60  0000 C CNN
-F 4 "S1011EC-07-ND" H 3100 5350 60  0001 C CNN "DigiKeyPartNumber	"
-F 5 "PRPC007SAAN-RC" H 3100 5350 60  0001 C CNN "ManufacturerPartNumber	"
-	1    3100 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L 7_Pins_Header_PA7_PA14 U8
-U 1 1 5A19FE9B
-P 8050 2850
-F 0 "U8" H 8050 2850 60  0000 C CNN
-F 1 "7_Pins_Header_PA7_PA14" V 7700 3700 60  0000 C CNN
-F 2 "Footprints:7_Pins_Headers" H 8050 2850 60  0001 C CNN
-F 3 "" H 8050 2850 60  0000 C CNN
-F 4 "PRPC007SAAN-RC" H 8050 2850 60  0001 C CNN "ManufacturerPartNumber	"
-F 5 "S1011EC-07-ND" H 8050 2850 60  0001 C CNN "DigiKeyPartNumber	"
-	1    8050 2850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4500 3900 3350 3900
-Wire Wire Line
-	4500 4100 3350 4100
-Wire Wire Line
-	4500 4300 3350 4300
-Wire Wire Line
-	4500 4500 3350 4500
-Wire Wire Line
-	4500 4700 3350 4700
-Wire Wire Line
-	6250 4700 6450 4700
-Wire Wire Line
-	6450 4700 6450 4900
-Wire Wire Line
-	6450 4900 3350 4900
-Wire Wire Line
-	6250 4500 6650 4500
-Wire Wire Line
-	6650 4500 6650 5100
-Wire Wire Line
-	6650 5100 3350 5100
-Wire Wire Line
-	6250 4300 7800 4300
-Wire Wire Line
-	6250 4100 7800 4100
-Wire Wire Line
-	6250 3500 6950 3500
-Wire Wire Line
-	6950 3500 6950 3900
-Wire Wire Line
-	6950 3900 7800 3900
-Wire Wire Line
-	6250 3300 7150 3300
-Wire Wire Line
-	7150 3300 7150 3700
-Wire Wire Line
-	7150 3700 7800 3700
-Wire Wire Line
-	6250 3100 7350 3100
-Wire Wire Line
-	7350 3100 7350 3500
-Wire Wire Line
-	7350 3500 7800 3500
-Wire Wire Line
-	6250 2900 7550 2900
-Wire Wire Line
-	7550 2900 7550 3300
-Wire Wire Line
-	7550 3300 7800 3300
-$Comp
-L R R4
+L R R403
 U 1 1 5A19FEBD
 P 10100 3600
-F 0 "R4" V 10180 3600 50  0000 C CNN
+F 0 "R403" V 10180 3600 50  0000 C CNN
 F 1 "100K" V 10100 3600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 10030 3600 50  0001 C CNN
 F 3 "" H 10100 3600 50  0000 C CNN
@@ -151,10 +61,10 @@ F 5 "RC0805FR-07100KL" V 10100 3600 60  0001 C CNN "ManufacturerPartNumber	"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L R R402
 U 1 1 5A19FEC6
 P 9450 3300
-F 0 "R3" V 9530 3300 50  0000 C CNN
+F 0 "R402" V 9530 3300 50  0000 C CNN
 F 1 "100K" V 9450 3300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 9380 3300 50  0001 C CNN
 F 3 "" H 9450 3300 50  0000 C CNN
@@ -163,163 +73,82 @@ F 5 "RC0805FR-07100KL" V 9450 3300 60  0001 C CNN "ManufacturerPartNumber	"
 	1    9450 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3450 3700 4500 3700
-Wire Wire Line
-	6250 3700 6650 3700
 $Comp
 L GND #PWR013
-U 1 1 5A19FECF
-P 6600 3900
-F 0 "#PWR013" H 6600 3650 50  0001 C CNN
-F 1 "GND" H 6600 3750 50  0000 C CNN
-F 2 "" H 6600 3900 50  0000 C CNN
-F 3 "" H 6600 3900 50  0000 C CNN
-	1    6600 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6250 3900 6600 3900
-Wire Wire Line
-	4500 3500 4050 3500
-Text Label 4150 3500 0    60   ~ 0
-NRST
-Wire Wire Line
-	10100 3050 10100 3450
-$Comp
-L GND #PWR014
 U 1 1 5A19FED9
 P 9450 3750
-F 0 "#PWR014" H 9450 3500 50  0001 C CNN
+F 0 "#PWR013" H 9450 3500 50  0001 C CNN
 F 1 "GND" H 9450 3600 50  0000 C CNN
 F 2 "" H 9450 3750 50  0000 C CNN
 F 3 "" H 9450 3750 50  0000 C CNN
 	1    9450 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9450 3450 9450 3750
 Text Label 10100 3850 0    60   ~ 0
 SWDIO
 Text Label 9450 3100 0    60   ~ 0
 SWCLK
-Text Label 6350 3100 0    60   ~ 0
-SWDIO
-Text Label 6350 2900 0    60   ~ 0
-SWCLK
 $Comp
-L +3.3V #PWR015
-U 1 1 5A19FEE4
-P 3450 3700
-F 0 "#PWR015" H 3450 3550 50  0001 C CNN
-F 1 "+3.3V" H 3450 3840 50  0000 C CNN
-F 2 "" H 3450 3700 50  0000 C CNN
-F 3 "" H 3450 3700 50  0000 C CNN
-	1    3450 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR016
-U 1 1 5A19FEEB
-P 6850 3750
-F 0 "#PWR016" H 6850 3600 50  0001 C CNN
-F 1 "+3.3V" H 6850 3890 50  0000 C CNN
-F 2 "" H 6850 3750 50  0000 C CNN
-F 3 "" H 6850 3750 50  0000 C CNN
-	1    6850 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR017
+L +3.3V #PWR014
 U 1 1 5A19FEF1
 P 10100 3050
-F 0 "#PWR017" H 10100 2900 50  0001 C CNN
+F 0 "#PWR014" H 10100 2900 50  0001 C CNN
 F 1 "+3.3V" H 10100 3190 50  0000 C CNN
 F 2 "" H 10100 3050 50  0000 C CNN
 F 3 "" H 10100 3050 50  0000 C CNN
 	1    10100 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6850 3750 6850 3800
-Wire Wire Line
-	6850 3800 6650 3800
-Wire Wire Line
-	6650 3800 6650 3700
-Wire Wire Line
-	4500 2900 4050 2900
-Text Label 4150 2900 0    60   ~ 0
-BOOT0
 $Comp
-L R R2
+L R R401
 U 1 1 5A19FEFE
-P 1750 5100
-F 0 "R2" V 1830 5100 50  0000 C CNN
-F 1 "680" V 1750 5100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1680 5100 50  0001 C CNN
-F 3 "" H 1750 5100 50  0001 C CNN
-F 4 "311-680ARCT-ND" V 1750 5100 60  0001 C CNN "DigiKeyPartNumber	"
-F 5 "RC0805JR-07680RL" V 1750 5100 60  0001 C CNN "ManufacturerPartNumber	"
-	1    1750 5100
+P 6250 6350
+F 0 "R401" V 6330 6350 50  0000 C CNN
+F 1 "680" V 6250 6350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6180 6350 50  0001 C CNN
+F 3 "" H 6250 6350 50  0001 C CNN
+F 4 "311-680ARCT-ND" V 6250 6350 60  0001 C CNN "DigiKeyPartNumber	"
+F 5 "RC0805JR-07680RL" V 6250 6350 60  0001 C CNN "ManufacturerPartNumber	"
+	1    6250 6350
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L GND #PWR015
 U 1 1 5A19FF05
-P 1750 5500
-F 0 "#PWR018" H 1750 5250 50  0001 C CNN
-F 1 "GND" H 1750 5350 50  0000 C CNN
-F 2 "" H 1750 5500 50  0000 C CNN
-F 3 "" H 1750 5500 50  0000 C CNN
-	1    1750 5500
+P 6250 6750
+F 0 "#PWR015" H 6250 6500 50  0001 C CNN
+F 1 "GND" H 6250 6600 50  0000 C CNN
+F 2 "" H 6250 6750 50  0000 C CNN
+F 3 "" H 6250 6750 50  0000 C CNN
+	1    6250 6750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1750 4950 1750 4750
-Wire Wire Line
-	1750 4750 2100 4750
-Wire Wire Line
-	1750 5250 1750 5500
-Text Label 1800 4750 0    60   ~ 0
+Text Label 6250 6150 1    60   ~ 0
 BOOT0
 $Comp
-L 16Mhz U5
+L 16Mhz U401
 U 1 1 5A19FF11
-P 2900 3750
-F 0 "U5" H 3150 3650 60  0000 C CNN
-F 1 "16Mhz" H 2400 3900 60  0000 C CNN
-F 2 "Footprints:16Mhz" H 2900 3750 60  0001 C CNN
-F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p16e.ashx" H 2900 3750 60  0001 C CNN
-F 4 "490-1198-1-ND" H 2900 3750 60  0001 C CNN "DigiKeyPartNumber	"
-F 5 "CSTCE16M0V53-R0" H 2900 3750 60  0001 C CNN "ManufacturerPartNumber	"
-	1    2900 3750
+P 2050 2050
+F 0 "U401" H 1900 1900 60  0000 C CNN
+F 1 "16Mhz" H 2350 2250 60  0000 C CNN
+F 2 "Footprints:16Mhz" H 2050 2050 60  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p16e.ashx" H 2050 2050 60  0001 C CNN
+F 4 "490-1198-1-ND" H 2050 2050 60  0001 C CNN "DigiKeyPartNumber	"
+F 5 "CSTCE16M0V53-R0" H 2050 2050 60  0001 C CNN "ManufacturerPartNumber	"
+	1    2050 2050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4500 3100 2900 3100
-Wire Wire Line
-	4500 3300 2900 3300
 $Comp
-L GND #PWR019
+L GND #PWR016
 U 1 1 5A19FF1A
-P 2150 4150
-F 0 "#PWR019" H 2150 3900 50  0001 C CNN
-F 1 "GND" H 2150 4000 50  0000 C CNN
-F 2 "" H 2150 4150 50  0000 C CNN
-F 3 "" H 2150 4150 50  0000 C CNN
-	1    2150 4150
+P 2050 2500
+F 0 "#PWR016" H 2050 2250 50  0001 C CNN
+F 1 "GND" H 2050 2350 50  0000 C CNN
+F 2 "" H 2050 2500 50  0000 C CNN
+F 3 "" H 2050 2500 50  0000 C CNN
+	1    2050 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2150 3950 2150 4150
-Wire Notes Line
-	8900 2200 10900 2200
-Wire Notes Line
-	10900 2200 10900 4600
-Wire Notes Line
-	10900 4600 8900 4600
-Wire Notes Line
-	8900 4600 8900 2200
 Text Notes 9650 2150 0    60   ~ 0
 Serial Wire Debug - SWD
 $Bitmap
@@ -494,14 +323,14 @@ ED C2 19 12 8F C0 2E 3F 12 F4 7C E3 F1 C1 C6 6F 7B ED DC 56 CD 82 AE 10 55 27 EC
 7D 5D FA D3 D5 AC 7A 0A 54 D9 43 BD 47 01 71 19 71 8C 5C A3 B0 AB 62 5F 89 69 3B 06 21 F0 5D CE 
 30 3C 9B 92 CF 24 8B DA 51 CD 00 08 DC F9 E9 26 3C 0B 73 01 9F 70 E9 91 80 E7 1F EE EB 72 BD E0 
 B4 B1 05 AB 63 DF 09 55 27 EC D5 B5 FC BD 3F 9C 4A 7F 61 62 A3 F8 70 39 5F DC B1 1B B9 9B 02 E2 
-5E F0 7F E6 B1 8C 44 57 10 5F 27 00 00 00 00 49 45 4E 44 AE 42 60 82 00 
+5E F0 7F E6 B1 8C 44 57 10 5F 27 00 00 00 00 49 45 4E 44 AE 42 60 82 FF 
 EndData
 $EndBitmap
 $Comp
-L FIDUCIAL FID1
+L FIDUCIAL FID401
 U 1 1 5A19FF27
 P 950 6150
-F 0 "FID1" H 950 5900 60  0000 C CNN
+F 0 "FID401" H 950 5900 60  0000 C CNN
 F 1 "FIDUCIAL" H 950 6400 60  0000 C CNN
 F 2 "Footprints2:MF_Aesthetics-FIDUCIAL_100MIL" H 950 6150 60  0001 C CNN
 F 3 "" H 950 6150 60  0000 C CNN
@@ -509,36 +338,437 @@ F 3 "" H 950 6150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FIDUCIAL FID2
+L FIDUCIAL FID402
 U 1 1 5A19FF2E
 P 1450 6150
-F 0 "FID2" H 1450 5900 60  0000 C CNN
+F 0 "FID402" H 1450 5900 60  0000 C CNN
 F 1 "FIDUCIAL" H 1450 6400 60  0000 C CNN
 F 2 "Footprints2:MF_Aesthetics-FIDUCIAL_100MIL" H 1450 6150 60  0001 C CNN
 F 3 "" H 1450 6150 60  0000 C CNN
 	1    1450 6150
 	1    0    0    -1  
 $EndComp
+$Comp
+L STM32F401CEU6 U402
+U 1 1 5A30F59A
+P 5750 3400
+F 0 "U402" H 5600 2550 60  0000 C CNN
+F 1 "STM32F401CEU6" H 5650 3500 60  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm" H 4750 4600 60  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/30/91/86/2d/db/94/4a/d6/DM00102166.pdf/files/DM00102166.pdf/jcr:content/translations/en.DM00102166.pdf" H 4750 4600 60  0001 C CNN
+F 4 "STM32F401CEU6" H 5750 3400 60  0001 C CNN "Manufacturer Part Number	"
+F 5 "497-17427-ND" H 5750 3400 60  0001 C CNN "Digi-Key Part Number	"
+	1    5750 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 800  900  0    79   ~ 16
+BOOT0, SWCLK, SWDIO, USB+, USB-, NRST, VBUS, 
+$Comp
+L Jumper_NO_Small JP401
+U 1 1 5A30FB8A
+P 6600 5950
+F 0 "JP401" H 6600 6030 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6610 5890 50  0001 C CNN
+F 2 "conn-test:JUMPER-SOLDER-SMD" H 6600 5950 50  0001 C CNN
+F 3 "" H 6600 5950 50  0000 C CNN
+	1    6600 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR017
+U 1 1 5A30FEBD
+P 7200 5850
+F 0 "#PWR017" H 7200 5700 50  0001 C CNN
+F 1 "+3.3V" H 7200 5990 50  0000 C CNN
+F 2 "" H 7200 5850 50  0000 C CNN
+F 3 "" H 7200 5850 50  0000 C CNN
+	1    7200 5850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4400 2100
+NoConn ~ 4400 2300
+Text HLabel 6800 1850 2    60   Input ~ 0
+USB-
+Text HLabel 6800 2050 2    60   Input ~ 0
+USB+
+Text HLabel 5450 1300 1    60   Input ~ 0
+NRST
+Text HLabel 6850 4800 2    60   Input ~ 0
+VBUS
+$Comp
+L +3.3V #PWR018
+U 1 1 5A31058E
+P 6250 850
+F 0 "#PWR018" H 6250 700 50  0001 C CNN
+F 1 "+3.3V" H 6250 990 50  0000 C CNN
+F 2 "" H 6250 850 50  0000 C CNN
+F 3 "" H 6250 850 50  0000 C CNN
+	1    6250 850 
+	1    0    0    -1  
+$EndComp
+Text Label 7000 4200 0    60   ~ 0
+SWCLK
+Text Label 7000 4400 0    60   ~ 0
+SWDIO
+$Comp
+L +3.3V #PWR019
+U 1 1 5A311234
+P 2200 3200
+F 0 "#PWR019" H 2200 3050 50  0001 C CNN
+F 1 "+3.3V" H 2200 3340 50  0000 C CNN
+F 2 "" H 2200 3200 50  0000 C CNN
+F 3 "" H 2200 3200 50  0000 C CNN
+	1    2200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 5A311318
+P 2200 4350
+F 0 "#PWR020" H 2200 4100 50  0001 C CNN
+F 1 "GND" H 2200 4200 50  0000 C CNN
+F 2 "" H 2200 4350 50  0000 C CNN
+F 3 "" H 2200 4350 50  0000 C CNN
+	1    2200 4350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4400 2800
+Text Label 4200 3000 2    60   ~ 0
+PA0
+Text Label 2200 3300 0    60   ~ 0
+PA0
+Text Label 4200 3200 2    60   ~ 0
+PA1
+Text Label 2200 3400 0    60   ~ 0
+PA1
+Text Label 4200 3400 2    60   ~ 0
+PA2
+Text Label 2200 3500 0    60   ~ 0
+PA2
+Text Label 4200 3600 2    60   ~ 0
+PA3
+Text Label 2200 3600 0    60   ~ 0
+PA3
+Text Label 4200 3800 2    60   ~ 0
+PA4
+Text Label 2200 3700 0    60   ~ 0
+PA4
+Text Label 4200 4000 2    60   ~ 0
+PA5
+Text Label 2200 3800 0    60   ~ 0
+PA5
+Text Label 4200 4200 2    60   ~ 0
+PA6
+Text Label 2200 3900 0    60   ~ 0
+PA6
+Text Label 4200 4400 2    60   ~ 0
+PA7
+Text Label 2200 4000 0    60   ~ 0
+PA7
+$Comp
+L C C401
+U 1 1 5A31EB5B
+P 3850 5400
+F 0 "C401" H 3875 5500 50  0000 L CNN
+F 1 "C" H 3875 5300 50  0000 L CNN
+F 2 "Footprints2:SMD_CAP_1210" H 3888 5250 50  0001 C CNN
+F 3 "" H 3850 5400 50  0000 C CNN
+	1    3850 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 5A31EC3A
+P 3450 5550
+F 0 "#PWR021" H 3450 5300 50  0001 C CNN
+F 1 "GND" H 3450 5400 50  0000 C CNN
+F 2 "" H 3450 5550 50  0000 C CNN
+F 3 "" H 3450 5550 50  0000 C CNN
+	1    3450 5550
+	1    0    0    -1  
+$EndComp
+Text Label 4200 5200 2    60   ~ 0
+PB10
+Text Label 4200 5000 2    60   ~ 0
+PB2
+Text Label 4200 5600 2    60   ~ 0
+PB12
+Text Label 7900 4050 2    60   ~ 0
+PB12
+Text Label 7100 5600 0    60   ~ 0
+PB13
+Text Label 7900 3950 2    60   ~ 0
+PB13
+Text Label 7100 5400 0    60   ~ 0
+PB14
+Text Label 7900 3850 2    60   ~ 0
+PB14
+Text Label 7100 5200 0    60   ~ 0
+PB15
+Text Label 7900 3750 2    60   ~ 0
+PB15
+Text Label 7100 3800 0    60   ~ 0
+PB3
+Text Label 7900 3550 2    60   ~ 0
+PB3
+Text Label 7100 3600 0    60   ~ 0
+PB4
+Text Label 7900 3450 2    60   ~ 0
+PB4
+Text Label 7100 3400 0    60   ~ 0
+PB5
+Text Label 7900 3350 2    60   ~ 0
+PB5
+Text Label 7100 4000 0    60   ~ 0
+PA15
+Text Label 7900 3650 2    60   ~ 0
+PA15
+$Comp
+L CONN_01X12 P401
+U 1 1 5A3200BD
+P 1750 3750
+F 0 "P401" H 1750 4400 50  0000 C CNN
+F 1 "CONN_01X12" V 1850 3750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x12_Pitch2.54mm" H 1750 3750 50  0001 C CNN
+F 3 "" H 1750 3750 50  0000 C CNN
+	1    1750 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10100 3050 10100 3450
+Wire Wire Line
+	9450 3450 9450 3750
+Wire Wire Line
+	6250 5850 6250 6200
+Wire Wire Line
+	6250 6500 6250 6750
+Wire Notes Line
+	8900 2200 10900 2200
+Wire Notes Line
+	10900 2200 10900 4600
+Wire Notes Line
+	10900 4600 8900 4600
+Wire Notes Line
+	8900 4600 8900 2200
 Wire Wire Line
 	10100 3750 10100 3950
 Wire Wire Line
 	9450 3150 9450 3000
-Text Label 6350 3500 0    60   ~ 0
-USB-
-Text Label 6350 3300 0    60   ~ 0
-USB+
-Text Label 7700 3100 0    60   ~ 0
-VBUS
 Wire Wire Line
-	7800 3100 7650 3100
-Text HLabel 4050 3500 0    60   Input ~ 0
-NRST
-Text HLabel 3450 3700 0    60   Input ~ 0
+	6500 5950 6250 5950
+Connection ~ 6250 5950
+Wire Wire Line
+	6700 5950 7200 5950
+Wire Wire Line
+	7200 5950 7200 5850
+Wire Wire Line
+	1750 1700 4400 1700
+Wire Wire Line
+	2600 1900 4400 1900
+Wire Wire Line
+	6250 850  6250 1300
+Wire Wire Line
+	6050 1050 6050 1300
+Wire Wire Line
+	5650 1050 6250 1050
+Connection ~ 6250 1050
+Wire Wire Line
+	5850 1300 5850 1050
+Connection ~ 6050 1050
+Wire Wire Line
+	5650 1300 5650 1050
+Connection ~ 5850 1050
+Wire Wire Line
+	6850 4200 7000 4200
+Wire Wire Line
+	6850 4400 7000 4400
+Wire Wire Line
+	1950 3200 2200 3200
+Wire Wire Line
+	1950 3300 2200 3300
+Wire Wire Line
+	3050 2600 4400 2600
+Wire Wire Line
+	4400 3000 4200 3000
+Wire Wire Line
+	4400 3200 4200 3200
+Wire Wire Line
+	1950 3400 2200 3400
+Wire Wire Line
+	4400 3400 4200 3400
+Wire Wire Line
+	1950 3500 2200 3500
+Wire Wire Line
+	4400 3600 4200 3600
+Wire Wire Line
+	1950 3600 2200 3600
+Wire Wire Line
+	4400 3800 4200 3800
+Wire Wire Line
+	1950 3700 2200 3700
+Wire Wire Line
+	4400 4000 4200 4000
+Wire Wire Line
+	1950 3800 2200 3800
+Wire Wire Line
+	4400 4200 4200 4200
+Wire Wire Line
+	1950 3900 2200 3900
+Wire Wire Line
+	1950 4000 2200 4000
+Wire Wire Line
+	4400 4400 4200 4400
+Wire Wire Line
+	5950 5850 5950 6650
+Wire Wire Line
+	5350 6650 6250 6650
+Connection ~ 6250 6650
+Wire Wire Line
+	5750 5850 5750 6650
+Connection ~ 5950 6650
+Wire Wire Line
+	5550 5850 5550 6650
+Connection ~ 5750 6650
+Wire Wire Line
+	5350 5850 5350 6650
+Connection ~ 5550 6650
+Wire Wire Line
+	4400 5400 4000 5400
+Wire Wire Line
+	3700 5400 3450 5400
+Wire Wire Line
+	3450 5400 3450 5550
+Wire Wire Line
+	8100 4050 7900 4050
+Wire Wire Line
+	4400 5200 4200 5200
+Wire Wire Line
+	4400 5000 4200 5000
+Wire Wire Line
+	8100 3950 7900 3950
+Wire Wire Line
+	4400 5600 4200 5600
+Wire Wire Line
+	8100 3850 7900 3850
+Wire Wire Line
+	6850 5600 7100 5600
+Wire Wire Line
+	8100 3750 7900 3750
+Wire Wire Line
+	6850 5400 7100 5400
+Wire Wire Line
+	8100 3650 7900 3650
+Wire Wire Line
+	6850 5200 7100 5200
+Wire Wire Line
+	8100 3550 7900 3550
+Wire Wire Line
+	6850 3800 7100 3800
+Wire Wire Line
+	8100 3450 7900 3450
+Wire Wire Line
+	6850 3600 7100 3600
+Wire Wire Line
+	8100 3350 7900 3350
+Wire Wire Line
+	6850 3400 7100 3400
+Wire Wire Line
+	8100 3250 7900 3250
+Wire Wire Line
+	6850 4000 7100 4000
+Wire Wire Line
+	8100 3150 7900 3150
+Wire Wire Line
+	1950 4300 2200 4300
+Wire Wire Line
+	2200 4300 2200 4350
+Wire Wire Line
+	1950 4100 2200 4100
+Wire Wire Line
+	1950 4200 2200 4200
+Text Label 2200 4100 0    60   ~ 0
+PB2
+Text Label 2200 4200 0    60   ~ 0
+PB10
+$Comp
+L CONN_01X12 P403
+U 1 1 5A3205AF
+P 8300 3500
+F 0 "P403" H 8300 4150 50  0000 C CNN
+F 1 "CONN_01X12" V 8400 3500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x12_Pitch2.54mm" H 8300 3500 50  0001 C CNN
+F 3 "" H 8300 3500 50  0000 C CNN
+	1    8300 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3050 7900 3050
+Wire Wire Line
+	8100 2950 7900 2950
+Wire Wire Line
+	6850 3200 7100 3200
+Wire Wire Line
+	6850 3000 7100 3000
+Wire Wire Line
+	6850 2800 7100 2800
+Wire Wire Line
+	6850 2600 7100 2600
+Text Label 7100 3200 0    60   ~ 0
+PB6
+Text Label 7900 3250 2    60   ~ 0
+PB6
+Text Label 7900 3150 2    60   ~ 0
+PB7
+Text Label 7900 3050 2    60   ~ 0
+PB8
+Text Label 7900 2950 2    60   ~ 0
+PB9
+Text Label 7100 3000 0    60   ~ 0
+PB7
+Text Label 7100 2800 0    60   ~ 0
+PB8
+Text Label 7100 2600 0    60   ~ 0
+PB9
+Wire Wire Line
+	1750 1700 1750 2000
+Wire Wire Line
+	2600 1900 2600 2000
+Wire Wire Line
+	2600 2000 2350 2000
+$Comp
+L CONN_01X02 P402
+U 1 1 5A321112
+P 2850 2650
+F 0 "P402" H 2850 2800 50  0000 C CNN
+F 1 "CONN_01X02" V 2950 2650 50  0000 C CNN
+F 2 "rascalmicro-kicad-footprints:s2b-ph-sm4-tb" H 2850 2650 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 2850 2650 50  0001 C CNN
+F 4 "455-1749-1-ND" H 2850 2650 60  0001 C CNN "Digi-Key Part Number	"
+F 5 "S2B-PH-SM4-TB(LF)(SN)" H 2850 2650 60  0001 C CNN "Manufacturer Part Number	"
+	1    2850 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2050 2500 2050 2450
+$Comp
+L GND #PWR022
+U 1 1 5A3213E5
+P 3100 2850
+F 0 "#PWR022" H 3100 2600 50  0001 C CNN
+F 1 "GND" H 3100 2700 50  0000 C CNN
+F 2 "" H 3100 2850 50  0000 C CNN
+F 3 "" H 3100 2850 50  0000 C CNN
+	1    3100 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2850 3100 2700
+Wire Wire Line
+	3100 2700 3050 2700
+Text HLabel 6250 950  2    60   Input ~ 0
 +3.3v
-Text HLabel 6750 3300 1    60   Input ~ 0
-USB+
-Text HLabel 6900 3500 1    60   Input ~ 0
-USB-
-Text HLabel 7650 3100 1    60   Input ~ 0
-VBUS
+NoConn ~ 6850 4600
+NoConn ~ 6850 5000
+NoConn ~ 4400 4600
+NoConn ~ 4400 4800
 $EndSCHEMATC

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:NEOM_0-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,16 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:stm32f070f6p6
 LIBS:tpd4s012dryr
 LIBS:lm3940
 LIBS:tactile_button
+LIBS:NEOM_0
 LIBS:NEOM_0-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -48,10 +49,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L C C1
+L C C201
 U 1 1 5A19E90E
 P 4850 2250
-F 0 "C1" H 4875 2350 50  0000 L CNN
+F 0 "C201" H 4875 2350 50  0000 L CNN
 F 1 "0.47u" H 4875 2150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4888 2100 50  0001 C CNN
 F 3 "" H 4850 2250 50  0000 C CNN
@@ -61,10 +62,10 @@ F 5 "GRM21BR71H474KA88K" H 4850 2250 60  0001 C CNN "ManufacturerPartNumber	"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C2
+L C C202
 U 1 1 5A19E917
 P 4850 2850
-F 0 "C2" H 4875 2950 50  0000 L CNN
+F 0 "C202" H 4875 2950 50  0000 L CNN
 F 1 "33u" H 4875 2750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4888 2700 50  0001 C CNN
 F 3 "" H 4850 2850 50  0000 C CNN
@@ -74,12 +75,12 @@ F 5 "C2012X5R0J336M125AC" H 4850 2850 60  0001 C CNN "ManufacturerPartNumber	"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LM3940 U1
+L LM3940 U201
 U 1 1 5A19E920
 P 5700 3050
-F 0 "U1" H 5950 3050 60  0000 C CNN
+F 0 "U201" H 5950 3050 60  0000 C CNN
 F 1 "LM3940" H 5950 4050 60  0000 C CNN
-F 2 "Footprints:LM3940" H 5700 3050 60  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 5700 3050 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm3940.pdf" H 5700 3050 60  0001 C CNN
 F 4 "LM3940IMPX-3.3/NOPBCT-ND" H 5700 3050 60  0001 C CNN "DigiKeyPartNumber	"
 F 5 "LM3940IMPX-3.3/NOPB" H 5700 3050 60  0001 C CNN "ManufacturerPartNumber	"
@@ -87,23 +88,12 @@ F 5 "LM3940IMPX-3.3/NOPB" H 5700 3050 60  0001 C CNN "ManufacturerPartNumber	"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tactile_Button U2
-U 1 1 5A19E929
-P 7600 3600
-F 0 "U2" V 8000 4300 60  0000 C CNN
-F 1 "Reset Button" V 7100 4750 60  0000 C CNN
-F 2 "Footprints:Tactile_Button" H 7600 3600 60  0001 C CNN
-F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf" H 7600 3600 60  0001 C CNN
-F 4 "TL3305AF260QG" H 7600 3600 60  0001 C CNN "ManufacturerPartNumber	"
-F 5 "EG5353CT-ND" H 7600 3600 60  0001 C CNN "DigiKeyPartNumber	"
-	1    7600 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L LED D1
+L LED-RESCUE-NEOM_0 D201
 U 1 1 5A19E932
 P 5200 3850
-F 0 "D1" H 5200 3950 50  0000 C CNN
+AR Path="/5A19E932" Ref="D201"  Part="1" 
+AR Path="/5A19D99A/5A19E932" Ref="D201"  Part="1" 
+F 0 "D201" H 5200 3950 50  0000 C CNN
 F 1 "LED" H 5200 3750 50  0000 C CNN
 F 2 "Footprints:0805_LED" H 5200 3850 50  0001 C CNN
 F 3 "http://www.lumex.com/content/files/ProductAttachment/SML-LXR85GC-TR.pdf" H 5200 3850 50  0001 C CNN
@@ -113,10 +103,10 @@ F 5 "SML-LXR85GC-TR" H 5200 3850 60  0001 C CNN "ManufacturerPartNumber	"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R1
+L R R201
 U 1 1 5A19E93B
 P 5200 3300
-F 0 "R1" V 5280 3300 50  0000 C CNN
+F 0 "R201" V 5280 3300 50  0000 C CNN
 F 1 "680" V 5200 3300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 5130 3300 50  0001 C CNN
 F 3 "" H 5200 3300 50  0001 C CNN
@@ -186,28 +176,19 @@ Text Label 5200 2250 0    60   ~ 0
 VBUS
 Wire Wire Line
 	6850 3350 7300 3350
-Wire Wire Line
-	6850 3850 7100 3850
-Wire Wire Line
-	7100 3350 7100 4350
 Connection ~ 7100 3350
 Text Label 6950 3350 0    60   ~ 0
 NRST
-Wire Wire Line
-	6000 3350 5750 3350
 Wire Wire Line
 	5750 3350 5750 4350
 Wire Wire Line
 	5750 4150 5200 4150
 Connection ~ 5200 4150
-Wire Wire Line
-	6000 3850 5750 3850
-Connection ~ 5750 3850
 $Comp
-L C C3
+L C C203
 U 1 1 5A19E977
 P 6450 4350
-F 0 "C3" H 6475 4450 50  0000 L CNN
+F 0 "C203" H 6475 4450 50  0000 L CNN
 F 1 "0.1u" H 6475 4250 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6488 4200 50  0001 C CNN
 F 3 "" H 6450 4350 50  0000 C CNN
@@ -218,7 +199,6 @@ F 5 "08055C104KAT2A" H 6450 4350 60  0001 C CNN "ManufacturerPartNumber	"
 $EndComp
 Wire Wire Line
 	7100 4350 6600 4350
-Connection ~ 7100 3850
 Wire Wire Line
 	5750 4350 6300 4350
 Connection ~ 5750 4150
@@ -250,10 +230,10 @@ NRST
 Text HLabel 5150 2250 1    60   Input ~ 0
 VBUS
 $Comp
-L C C4
+L C C204
 U 1 1 5A19F077
 P 8250 2500
-F 0 "C4" H 8275 2600 50  0000 L CNN
+F 0 "C204" H 8275 2600 50  0000 L CNN
 F 1 "10n" H 8275 2400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 8288 2350 50  0001 C CNN
 F 3 "" H 8250 2500 50  0000 C CNN
@@ -263,10 +243,10 @@ F 5 "CC0805KRX7R9BB103" H 8250 2500 60  0001 C CNN "ManufacturerPartNumber	"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L C C205
 U 1 1 5A19F080
 P 8600 2500
-F 0 "C5" H 8625 2600 50  0000 L CNN
+F 0 "C205" H 8625 2600 50  0000 L CNN
 F 1 "1u" H 8625 2400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 8638 2350 50  0001 C CNN
 F 3 "" H 8600 2500 50  0000 C CNN
@@ -371,4 +351,21 @@ Wire Notes Line
 	10750 1850 10750 3200
 Text HLabel 8250 2200 0    60   Input ~ 0
 +3.3v
+$Comp
+L SPST SW201
+U 1 1 5A323A66
+P 6350 3350
+F 0 "SW201" H 6350 3450 50  0000 C CNN
+F 1 "SPST" H 6350 3250 50  0000 C CNN
+F 2 "Footprints2:SW_SPST" H 6350 3350 50  0001 C CNN
+F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf" H 6350 3350 50  0001 C CNN
+F 4 "EG5353CT-ND" H 6350 3350 60  0001 C CNN "Digi-Key Part Number	"
+F 5 "TL3305AF260QG" H 6350 3350 60  0001 C CNN "Manufacturer Part Number	"
+	1    6350 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3350 7100 4350
+Wire Wire Line
+	5850 3350 5750 3350
 $EndSCHEMATC

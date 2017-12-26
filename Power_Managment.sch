@@ -33,6 +33,7 @@ LIBS:tpd4s012dryr
 LIBS:lm3940
 LIBS:tactile_button
 LIBS:NEOM_0
+LIBS:amw007r
 LIBS:NEOM_0-cache
 EELAYER 25 0
 EELAYER END

@@ -1,4 +1,4 @@
-update=Thursday, December 21, 2017 'PMt' 11:50:53 PM
+update=Tuesday, December 26, 2017 'AMt' 09:23:13 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=/Users/me/Desktop/Projects/Electornics Projects/KiCAD/NEOM/V0.0/Footprints.pretty
+LibDir=/Users/me/Desktop/Projects/Electornics Projects/KiCAD/NEOM/V0.0/Footprints.pretty;/Users/me/Desktop/Projects/Electornics Projects/KiCAD/NEOM/V0.0/Schematic_Lib
 [eeschema/libraries]
 LibName1=NEOM_0-rescue
 LibName2=power
@@ -61,5 +63,4 @@ LibName31=Schematic_Lib/tpd4s012dryr
 LibName32=Schematic_Lib/lm3940
 LibName33=Schematic_Lib/tactile_button
 LibName34=Schematic_Lib/NEOM_0
-[general]
-version=1
+LibName35=amw007r\r

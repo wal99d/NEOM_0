@@ -2,9 +2,9 @@ NEOM_IoT
 =======
 This repo contains all design file for NOEM_IoT v0 Rev2.0 hardware along with its firmware. 
 
-![alt tag](http://image.ibb.co/heG74m/Screen_Shot_2017_12_25_at_5_53_08_PM.png)
+![alt tag](https://raw.githubusercontent.com/wal99d/NEOM_0/refs/heads/master/b1.png)
 
-![alt tag](http://image.ibb.co/iXYtc6/Screen_Shot_2017_12_25_at_5_53_39_PM.png)
+![alt tag](https://raw.githubusercontent.com/wal99d/NEOM_0/refs/heads/master/b2.png)
 
 
 It's built with simplicity in mind using new STM32F401CEU6 MCU which have below 
